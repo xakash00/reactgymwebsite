@@ -1,0 +1,219 @@
+body,
+html {
+  background-color: #f5f5f5;
+}
+
+/* navbar */
+#strong {
+  color: crimson;
+}
+
+.navbar-toggler {
+  background-color: rgba(220, 20, 60, 0.767);
+}
+
+.colorChange {
+  background: rgba(220, 20, 60, 0.377);
+}
+
+.navbar-brand {
+  font-size: 28px;
+}
+
+.nav-item {
+  font-size: 1.25rem;
+}
+
+#logo {
+  margin-top: 6px;
+}
+
+.navbar-light .navbar-brand {
+  color: rgb(225 15 15 / 90%);
+}
+
+.nav-item :hover {
+  border-bottom: 3px solid red;
+}
+
+.brand-name {
+  color: red;
+}
+
+/* homepage */
+
+.home {
+  height: 90vh;
+  margin-top: 3rem;
+  min-height: 90vh;
+}
+
+.animated {
+  width: 25rem;
+  background-repeat: no-repeat;
+  background-position: left top;
+  -webkit-animation-duration: 2s;
+  animation-duration: 2s;
+  animation: up-down 2s ease-in-out infinite alternate-reverse both;
+}
+
+@-webkit-keyframes bounceInDown {
+  0% {
+    -webkit-transform: translateY(20px);
+  }
+
+  100% {
+    -webkit-transform: translateY(-20px);
+  }
+}
+
+@keyframes bounceInDown {
+  0% {
+    transform: translateY(20px);
+  }
+
+  100% {
+    transform: translateY(-20px);
+  }
+}
+
+.bounceInDown {
+  -webkit-animation-name: bounceInDown;
+  animation-name: bounceInDown;
+}
+
+.btn-get-started {
+  background-color: Crimson;
+  border-radius: 5px;
+  color: white;
+  padding: 0.5em;
+  text-decoration: none;
+}
+.btn-get-started:focus,
+.btn-get-started:hover {
+  background-color: FireBrick;
+  color: White;
+}
+
+#header-img {
+  text-align: right;
+}
+
+/* services page  */
+
+.services {
+  margin-top: 5rem;
+  min-height: 130vh;
+}
+
+#serviceText {
+  text-align: center;
+  margin-top: 5%;
+  color: crimson;
+  text-shadow: 0px 1px #fff;
+  border-radius: 15px;
+}
+
+.card {
+  padding: 5%;
+  border: none;
+  background: none;
+  color: white;
+}
+
+#cardtitle {
+  font-size: 1.5rem;
+  color: crimson;
+  text-align: center;
+  border-radius: 5px;
+  text-shadow: 0px 1px #fff;
+}
+
+.card-img-top {
+  border-top-left-radius: calc(2.25rem - 1px);
+  border-top-right-radius: calc(0.25rem - 1px);
+}
+
+.my-5 {
+  margin-top: 1rem !important;
+  margin-bottom: 3rem !important;
+}
+
+.text-center {
+  margin-bottom: 1.5rem;
+  color: red;
+}
+
+/* contact page  */
+
+.contactpage {
+  margin-top: 5rem;
+  min-height: 80vh;
+  width: 88%;
+}
+
+#cont {
+  font-style: italic;
+  margin-top: -2%;
+  padding-top: 7%;
+}
+
+.contact_div {
+  margin-left: 10%;
+}
+
+.form-label {
+  color: #fff;
+}
+
+.form-control {
+  padding-top: 10px;
+  width: 80%;
+  border: 0;
+  outline: 0;
+  background: rgba(255, 255, 255, 0.308);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.274);
+}
+
+.form-control::placeholder {
+  color: #000;
+}
+
+.aboutPage {
+  margin-top: 5rem;
+  min-height: 90vh;
+}
+
+/* footer  */
+
+.footer {
+  background-color: rgba(220, 20, 60, 0.767);
+  color: #fff;
+}
+
+.footer .fas {
+  font-size: 2rem;
+  color: #fff;
+  margin-right: 1rem;
+}
+
+.fab {
+  color: #fff;
+  padding: 0.5rem;
+}
+
+.footerLogo {
+  border-radius: 2px;
+  background-color: #fff;
+  width: 2.5rem;
+  margin-right: 1rem;
+}
+
+.footerP {
+  margin-left: 2rem;
+}
+
+.footersections {
+  margin-top: 15px;
+  padding-bottom: 1rem;
+}
