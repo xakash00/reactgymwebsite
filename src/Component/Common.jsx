@@ -7,12 +7,12 @@ const Common = (props) => {
     Aos.init({duration:1000})
   })
   return (
-    <div >
-      <section id="header" className="d-flex align-items-center">
+    <div  style={{color:props.mode==='light'? '#000':'#fff'}} >
+      <section id="header" className="d-flex align-items-center" >
         <div className="container-fluid">
           <div className="row">
             <div className="col-10 mx-auto">
-              <div id="cont" className="row" style={{color:props.mode==='light'? '#000':'#fff'}}>
+              <div id="cont" className="row">
                 <div data-aos="fade-right"  className="col-md-6 pt-5 pt-lg-0 order-2 order-lg-1 d-flex justify-content-center flex-column">
                   <h1 id="quote">
                     {props.name}
